@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App - Lista de tareas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">To-Do App (Lista de tareas)</h1>
+        <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+                <div class="input-group my-4">
+                    <input type="text" id="taskInput" class="form-control dark-input"
+                        placeholder="Añade una tarea a la lista">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" id="addTaskBtn">Añadir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul id="taskList" class="list-group">
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

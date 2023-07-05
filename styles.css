@@ -1,0 +1,23 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: #333;
+    border-color: #444;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+}
